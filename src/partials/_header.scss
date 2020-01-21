@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #CBCBCB;
+    color: $font-color-header;
+    padding: 24px 24px 0 24px;
+
+    .top-header {
+        .logo {
+            display: inline-block;
+
+            img {
+                vertical-align: bottom;
+            }
+        }
+        .privacy-terms-title {
+            display: inline-block;
+
+            h2 {
+                font-size: 20px;
+                font-weight: 400;
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .bottom-header {
+        padding: 21px 15px 0 0;
+
+        .bottom-header-left, .bottom-header-right {
+            width: 49%;
+            display: inline-block;
+        }
+
+        .bottom-header-right {
+            text-align: right;
+        }
+    }
+}

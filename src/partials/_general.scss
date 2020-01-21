@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    display: inline-block;
+}
+
+.bottom-header {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 40px;
+    padding-bottom: 4px;
+
+    &:last-child {
+        color: $font-color-header-active;
+        border-bottom: 4px solid $font-color-header-active;
+    }
+}
