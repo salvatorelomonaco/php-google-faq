@@ -1,11 +1,12 @@
 header {
     width: 100%;
-    height: 100px;
     position: fixed;
     top: 0;
+    background-color: white;
     border-bottom: 1px solid #CBCBCB;
     color: $font-color-header;
     padding: 24px 24px 0 24px;
+    z-index: 100;
 
     .top-header {
         .logo {
@@ -27,7 +28,7 @@ header {
     }
 
     .bottom-header {
-        padding: 21px 15px 0 0;
+        padding: 19px 15px 0 0;
 
         .bottom-header-left, .bottom-header-right {
             width: 49%;

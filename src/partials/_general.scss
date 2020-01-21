@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    position: relative; 
+}
+
 ul {
     display: inline-block;
 }
@@ -16,13 +20,13 @@ ul {
 
 
 ul li {
-    display: inline;
+    display: inline-block;
     list-style: none;
     margin-right: 40px;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
 
     &:last-child {
         color: $font-color-header-active;
-        border-bottom: 4px solid $font-color-header-active;
+        border-bottom: 3px solid $font-color-header-active;
     }
 }

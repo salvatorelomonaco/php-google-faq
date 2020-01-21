@@ -1,0 +1,19 @@
+main {
+    padding-top: 165px;
+
+    .container-faq {
+        margin: 0 auto;
+        width: $container;
+
+        h2 {
+            padding-top: 30px;
+            color: $font-color-main-h2;
+        }
+
+        p {
+            font-size: 15px;
+            color: $font-color-main-p;
+            line-height: 1.5;
+        }
+    }
+}
