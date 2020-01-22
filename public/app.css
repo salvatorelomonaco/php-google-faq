@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -42,6 +41,7 @@ header {
   color: #5F6368;
   padding: 24px 24px 0 24px;
   z-index: 100;
+  font-family: "Open Sans", sans-serif;
 }
 
 header .top-header .logo {
@@ -80,6 +80,7 @@ main .container-faq {
 }
 
 main .container-faq h2 {
+  font-family: "Open Sans", sans-serif;
   padding-top: 30px;
   color: #3C4043;
 }
@@ -87,6 +88,7 @@ main .container-faq h2 {
 main .container-faq p {
   font-size: 15px;
   color: #5F5F5F;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
 
